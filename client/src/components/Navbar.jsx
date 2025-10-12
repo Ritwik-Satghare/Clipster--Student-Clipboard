@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import AboutModal from "./AboutModal";
 
 const Navbar = ({ isAuth }) => {
   return (
@@ -35,6 +36,7 @@ const Navbar = ({ isAuth }) => {
           Login
         </NavLink>
       </div>
+      <AboutModal />
     </nav>
   );
 };

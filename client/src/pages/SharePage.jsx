@@ -84,8 +84,8 @@ export default function SharePage() {
 
       {/* Info Text */}
       <p className="text-center text-gray-500 text-lg mt-4 max-w-xl">
-        Your text can be retrieved using the generated code. Clips expire in 3
-        minutes.
+        Your text can be retrieved using the generated code. Clips expire in an
+        hour.
       </p>
 
       {/* Generated Code Display */}

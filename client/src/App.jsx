@@ -13,6 +13,8 @@ import { Navigate } from "react-router-dom";
 import SharePage from "./pages/SharePage.jsx";
 import RetrievePage from "./pages/RetrievePage.jsx";
 
+// Axios global defaults
+
 axios.defaults.baseURL = "http://localhost:8000";
 axios.defaults.withCredentials = true;
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
+import AboutModal from "./AboutModal";
 
 const NavbarAuth = ({ setIsAuth }) => {
   const navigate = useNavigate();
@@ -31,6 +32,7 @@ const NavbarAuth = ({ setIsAuth }) => {
         >
           Logout
         </NavLink>
+        <AboutModal />
       </div>
     </nav>
   );
