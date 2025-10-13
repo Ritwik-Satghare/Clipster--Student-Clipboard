@@ -147,4 +147,4 @@ This project is not licensed.
 ## Demo
 
 Check out the demo video here:
-[Clipster Walkthrough Video]([https://youtu.be/ydJJ7RnD-b8])
+[Clipster Walkthrough Video](https://youtu.be/ydJJ7RnD-b8)
