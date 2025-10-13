@@ -7,8 +7,7 @@ Clipster is a simple, fast, and interactive web app that allows you to save text
 ## Live Website
 
 You can access the live website here:
-**[Clipster Website](https://your-live-website-link.com)**
-*(Replace the link with your deployed website URL)*
+**[Clipster Website](no link made yet)**
 
 ---
 
@@ -84,7 +83,7 @@ git clone https://github.com/your-username/clipster.git
 2. **Backend Setup**
 
 ```bash
-cd clipster/backend
+cd server
 npm install
 ```
 
@@ -98,15 +97,15 @@ JWT_SECRET=your_jwt_secret
 * Start the backend server:
 
 ```bash
-npm run dev
+npm start
 ```
 
 3. **Frontend Setup**
 
 ```bash
-cd ../frontend
+cd ../client
 npm install
-npm start
+npm run dev
 ```
 
 4. **Open the app**
@@ -141,12 +140,11 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is not licensed.
 
 ---
 
 ## Demo
 
 Check out the demo video here:
-[Clipster Walkthrough Video](https://youtu.be/your-video-link)
-*(Replace the link with your video URL)*
+[Clipster Walkthrough Video]([https://youtu.be/ydJJ7RnD-b8])

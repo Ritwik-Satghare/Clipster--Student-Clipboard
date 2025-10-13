@@ -27,12 +27,13 @@ const clipboardSchema = new Schema(
     expiryTimestamp: {
       type: Date,
       default: () => Date.now() + (60 * 60 * 1000), // 1 hour from creation
-      //index: { expires: 0 },
     },
   },
   { timestamps: true } // adds createdAt and updatedAt fields automatically
 );
-clipboardSchema.index({ createdAt: 1 }, { expireAfterSeconds: 3600 });
+clipboardSchema.index({ createdAt: 1 }, { expireAfterSeconds: 300 }); // 5 minutes after creation
+
+// Create the model from the schema and export it
 
 const Clipboard = mongoose.model("Clipboard", clipboardSchema);
 
