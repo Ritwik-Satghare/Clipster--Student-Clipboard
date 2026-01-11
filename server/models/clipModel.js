@@ -26,12 +26,12 @@ const clipboardSchema = new Schema(
     // This field determines when the document will expire
     expiryTimestamp: {
       type: Date,
-      default: () => Date.now() + (60 * 60 * 1000), // 1 hour from creation
+      default: () => Date.now() + (15 * 60 * 1000), // 15 minutes from creation
     },
   },
   { timestamps: true } // adds createdAt and updatedAt fields automatically
 );
-clipboardSchema.index({ createdAt: 1 }, { expireAfterSeconds: 300 }); // 5 minutes after creation
+clipboardSchema.index({ expiryTimestamp: 1 }, { expireAfterSeconds: 0 }); // 15 minutes after creation
 
 // Create the model from the schema and export it
 
